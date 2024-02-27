@@ -1,6 +1,8 @@
 This is a short summary of the work involved in this project. There are 3 parts to the Jupyter Notebook. The first part is all about getting familiar with the data and following the examples/questions proposed by the program. The second part is our own analysis of the data, in a different category. And the last part is the conclusion. 
 
-There are a total of 16 files in this repository (1 readme.md; 1 jupyter notebook – module5_coupon_es.iynb in the notebook folder and 14 images in the image folder)
+There are a total of 16 files in this repository (1 readme.md; 1 jupyter notebook – module5_coupon_es.ipynb in the notebook folder and 14 images in the image folder)
+
+Link to Notebook: https://github.com/sinclaireric77/module5/tree/main/notebook/module5_coupon_es.ipynb
 
 1st part
 First, I cleaned the data by removing the car column as it is mostly filled with null values. Then for the remaining columns that have null values, I replace those with the median. I had to do a little bit of conversion because I had to calculate the median based on strings and using the sort function would not work. The order of string in our case is "1-3", "4-8", "gt8", "less1", "never" but we really want the order to be "never", "less1", "1-3", "4-8", "gt8" to calculate the median. I created a function to do just that.
